@@ -83,7 +83,6 @@ body {
   width: 207px;
   height: 49px;
   text-align: center;
-  padding-top: 5px;
 
 }
 
@@ -126,13 +125,13 @@ body {
   border: 8px solid #FFFFFF;
   border-radius: 62px;
   color: #27A8F3;
-  font-size: 20px;
+  font-weight: bold;
 }
 
 .button--start {
   padding: 16px 63px;
   margin-right: 25px;
-  font-weight: bold;
+
 }
 
 .button--question:hover,
@@ -149,9 +148,8 @@ body {
 }
 
 .content {
-  margin: 130px 0 170px;
+  padding: 90px 0 170px;
   z-index: 4;
-  padding-bottom: 170px;
 }
 
 .content__stage {
