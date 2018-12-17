@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class='container'>
+        <header>
+            <nav class='nav'>
+                <div class='nav__user user'>
+                    <div class='user__level'>
+                        <div class='user__level-number'>3</div>
+                    </div>
+                    <div class='user__wrapper'>
+                        <div class='user__points'>
+                            <div class='user__points-wrapper'>128</div>
+                        </div>
+                        <div class='user__life life'>
+                            <div class='life__item'></div>
+                            <div class='life__item'></div>
+                            <div class='life__item life__item--grey'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='nav__option'>
+                    <button class='button button--start'>НАЧАТЬ</button>
+                    <button class='button button--question'>?</button>
+                </div>
+
+            </nav>
+        </header>
+        <section class='main'>
+            <div class='main__content content'>
+                <div class='modal'>
+                    <div class='modal__title-container'>
+                        <span class='modal__title'>ИГРА ЗАВЕРШЕНА</span>
+                    </div>
+
+                    <div class='modal__container'>
+                        <div class='modal__score'>
+                            <span class='modal__score-item'>Поздравляем! Вы набрали:</span>
+                            <p class='modal__score-number'>512</p>
+                            <p class='modal__score-text'>очков</p>
+                        </div>
+                    </div>
+                    <button class='button button__modal'>OK</button>
+                </div>
+                <div class='rules'>
+                    <div class='rules__title-container'>
+                        <span class='rules__title'>Правила игры</span>
+                    </div>
+                    <div class='rules__container'>
+                        <div class='rules__container-wrapper'>
+                            <p class='rules-item'>1. В одной из 5-ти норок в случайном порядке и
+                                перидически появляется
+                                появляется мышь 🐭 и другие emoji 🐭🐼🐻🦊🐱🐱🐮🦁🐽🐨🐨🐰🐯.</p>
+                            <p class='rules-item'>2. Пользователю нужно кликать исключительно по мышкам 🐭. При клике
+                                по
+                                мыши игроку добавляется +10 очков.</p>
+                            <p class='rules-item'>3. После каждой пятой пойманной мышки уровень скорости случайного
+                                появления мыши увеличивается.</p>
+                            <p class='rules-item'>4. Если клик был выполнен по другому emoji, то у игрока отнимается
+                                жизнь. Всего 3 жизни. Если жизни закончились, то игра останавливается.</p>
+                        </div>
+                    </div>
+                    <button class='button button__rules'>OK</button>
+                </div>
+                <div class='content__container'>
+                    <div class='content__stage'>
+                        <div class='content__item'></div>
+                        <div class='content__item content__item--bottom'></div>
+                        <div class='content__item content__item--mouse'></div>
+                    </div>
+                    <div class='content__stage'>
+                        <div class='content__item content__item--emodji'></div>
+                        <div class='content__item'></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    </div>
+    </div>
+    <!-- <script>
+        var btn = document.querySelector('.button--question');
+        btn.addEventListener('click', function () {
+            console.log('click!')
+        });
+
+
+    </script> -->
+</body>
+
+</html>
