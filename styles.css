@@ -19,7 +19,9 @@ body {
   background: url("./image/background.png") no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0 auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -147,9 +149,9 @@ body {
   font-weight: bold;
 }
 
-.content {
-  padding: 90px 0 170px;
-  z-index: 4;
+.main {
+  margin: auto;
+  width: 100%;
 }
 
 .content__stage {
